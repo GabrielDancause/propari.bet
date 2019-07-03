@@ -33,8 +33,12 @@
       "8.png"
     ]
 
-    var imageHead = document.getElementById("body");
+
     var i = 0;
+
+    window.onload = function get_body() {
+      imageHead = document.getElementsByTagName('body')[0];
+    }
 
     setInterval(function() {
       imageHead.style.backgroundImage = "url(" + [i] + ")";
