@@ -1,6 +1,7 @@
 body {
   /* Location of the image */
   background-image: url(1.JPG);
+  background-image: opacity:0.75;
   
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
