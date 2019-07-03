@@ -1,6 +1,6 @@
 body {
   /* Location of the image */
-  background-image: url(1.JPG);
+  background-image: url(1.png);
   background-image: opacity:0.75;
   
   /* Image is centered vertically and horizontally at all times */
@@ -29,7 +29,7 @@ body {
   body {
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
-    background-image: url(1.JPG);
+    background-image: url(1.png);
   }
 	}
 
