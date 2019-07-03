@@ -21,33 +21,5 @@
       <p>Dès septembre 2019.</p>
     </section>
   </header>
-  <script>
-    var images = [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png",
-      "5.png",
-      "6.png",
-      "7.png",
-      "8.png"
-    ]
-
-
-    var i = 0;
-
-    window.onload = function get_body() {
-      imageHead = document.getElementsByTagName('body')[0];
-    }
-
-    setInterval(function() {
-      imageHead.style.backgroundImage = "url(" + [i] + ".png)";
-      i = i + 1;
-      if (i == images.length) {
-      	i =  0;
-      }
-    }, 7000);
-    console.log("Propari");
-  </script>
 </body>
 </html>
